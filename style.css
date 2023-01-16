@@ -15,9 +15,23 @@
 --fs-paragraph: 0.875rem;
 }
 
+/* Global Variables */
+
+* {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
+  width: 375px;
+  min-height: 100vh;
   font-family: 'Fraunces', serif;
   font-family: 'Montserrat', sans-serif;
+  background-color: var(--cream);
+  margin: 0 auto;
 }
 
 p {

@@ -27,6 +27,9 @@
   box-sizing: inherit;
 }
 
+html {
+}
+
 body {
   max-width: 100%;
   min-height: 100vh;
@@ -138,6 +141,14 @@ img {
     width: 637px;
     max-height: 470px;
     display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -318px;
+  /* -1/2 width */
+    margin-top: -235px;
+  /* -1/2 height */
+
   }
 
   img {
@@ -171,4 +182,11 @@ img {
   .add-to-cart {
     max-width: 244px;
   }
+
+  footer {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    translate: -50%;
+  }  
 }

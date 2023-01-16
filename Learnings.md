@@ -1,7 +1,8 @@
 ### Creating the Mobile Version first
 
 1. Set up the head element with the necessary inputs
-  ```<meta charset="UTF-8">
+  ```
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Product preview card component</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">

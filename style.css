@@ -1,0 +1,15 @@
+:root {
+  --fs-paragraph: 0.875rem;
+}
+
+body {
+  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

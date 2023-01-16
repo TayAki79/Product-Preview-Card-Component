@@ -11,7 +11,11 @@
 </head>
 <body>
   <main class="container">
-    <img src="./images/image-product-mobile.jpg" alt="product image">
+    <img 
+      src="./images/image-product-mobile.jpg"
+      srcset="./images/image-product-desktop.jpg 667w"
+      sizes="(min-width: 375px)"
+      alt="picture of the product">
     <div class="info">
       <p class="preview">Perfume</p>
       <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
@@ -24,12 +28,13 @@
         <p class="regular-price">$169.99</p>
       </div>
       <button class="add-to-cart">
-        <img src="./images/icon-cart.svg" alt="shopping cart icon">
+        <a href="">
+          <img src="./images/icon-cart.svg" alt="shopping cart icon">
         </img>
         Add to Cart
+        </a>
       </button>
     </div>
-    
   </main>
   <footer>
     <div class="attribution">

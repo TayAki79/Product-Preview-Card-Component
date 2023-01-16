@@ -43,4 +43,6 @@
   </footer> 
   ```
 
-4. Let's style 
+4. Let's style
+
+5. Add a @media query

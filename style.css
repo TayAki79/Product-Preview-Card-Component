@@ -1,5 +1,18 @@
 :root {
-  --fs-paragraph: 0.875rem;
+ /* Primary colors */
+
+--dk-cyan: hsl(158, 36%, 37%);
+--cream: hsl(30, 38%, 92%);
+
+/* Neutral colors */
+
+--very-dk-blue: hsl(212, 21%, 14%);
+--dk-grayish-blue: hsl(228, 12%, 48%);
+--white: hsl(0, 0%, 100%);
+
+/* Font-sizes */
+
+--fs-paragraph: 0.875rem;
 }
 
 body {

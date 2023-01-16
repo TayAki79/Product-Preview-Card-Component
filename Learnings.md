@@ -42,3 +42,5 @@
     </div>
   </footer> 
   ```
+
+4. Let's style 
